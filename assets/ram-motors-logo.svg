@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Ram Motors</title>
+  <desc id="desc">Gold Ram Motors emblem with RM initials, laurel branches and a car silhouette.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0a3" />
+      <stop offset="0.34" stop-color="#f7bf38" />
+      <stop offset="0.7" stop-color="#b97809" />
+      <stop offset="1" stop-color="#ffdc67" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="640" fill="#090909" />
+  <g fill="none" stroke="url(#gold)" filter="url(#glow)">
+    <circle cx="320" cy="244" r="166" stroke-width="8" />
+    <path d="M320 428 C241 399 163 348 132 246 C119 203 132 142 179 93" stroke-width="8" />
+    <path d="M320 428 C399 399 477 348 508 246 C521 203 508 142 461 93" stroke-width="8" />
+  </g>
+  <g fill="url(#gold)">
+    <path d="M165 315 C132 295 111 270 102 245 C130 247 153 259 174 283 Z" />
+    <path d="M146 260 C119 242 104 219 101 195 C126 201 146 215 160 238 Z" />
+    <path d="M142 202 C121 185 113 164 116 143 C137 154 151 170 156 191 Z" />
+    <path d="M155 145 C141 125 140 104 149 87 C165 104 173 122 170 142 Z" />
+    <path d="M188 101 C181 79 187 61 201 48 C211 68 210 87 199 104 Z" />
+    <path d="M475 315 C508 295 529 270 538 245 C510 247 487 259 466 283 Z" />
+    <path d="M494 260 C521 242 536 219 539 195 C514 201 494 215 480 238 Z" />
+    <path d="M498 202 C519 185 527 164 524 143 C503 154 489 170 484 191 Z" />
+    <path d="M485 145 C499 125 500 104 491 87 C475 104 467 122 470 142 Z" />
+    <path d="M452 101 C459 79 453 61 439 48 C429 68 430 87 441 104 Z" />
+  </g>
+  <path d="M215 164 H281 C319 164 337 186 337 212 C337 237 319 252 291 252 H235 L326 326 H244 L174 265 V164 Z M235 205 V225 H284 C294 225 300 220 300 214 C300 208 294 205 284 205 Z" fill="url(#gold)" />
+  <path d="M333 164 L390 230 L447 164 V327 H407 V243 L390 264 L373 243 V327 H333 Z" fill="url(#gold)" />
+  <g fill="none" stroke="url(#gold)" stroke-linecap="round">
+    <path d="M180 392 H460" stroke-width="3" opacity=".6" />
+    <path d="M215 378 C243 348 283 338 332 344 C369 348 398 361 423 378 L447 383 C455 385 459 390 459 397 H202 C202 389 207 384 215 378 Z" stroke-width="6" />
+    <path d="M250 349 L270 374 H357 L380 356" stroke-width="4" />
+    <circle cx="249" cy="397" r="20" stroke-width="6" />
+    <circle cx="414" cy="397" r="20" stroke-width="6" />
+  </g>
+  <path d="M250 467 L320 532 L390 467" fill="none" stroke="url(#gold)" stroke-width="6" />
+</svg>
