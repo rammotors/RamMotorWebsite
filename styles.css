@@ -450,6 +450,34 @@ img {
   padding: 1.25rem 0;
 }
 
+.footer-credit {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.footer-credit >p> i {
+  color: var(--brand-red);
+  font-size: 1rem;
+}
+
+.footer-credit a {
+  color: #ffd76f;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-credit a:hover {
+  color: #fff;
+}
+
+.footer-tagline {
+  color: rgba(255, 255, 255, 0.58);
+}
+
 .footer-links {
   display: flex;
   align-items: center;
@@ -497,5 +525,10 @@ img {
 
   .site-footer .container {
     text-align: center;
+  }
+
+  .footer-credit {
+    flex-direction: column;
+    gap: 0.25rem;
   }
 }
